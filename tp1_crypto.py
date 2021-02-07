@@ -1,22 +1,4 @@
-# def text_decryption(text):
-#     tab_freq = ['e', 'a', 'i', 's', 't', 'n', 'r', 'u', 'l', 'o', 'd', 'm', 'p', 'c', 'v',
-#                 'q', 'f', 'g', 'b', 'j', 'h', 'x', 'z', 'y', 'w', 'k']
-#     dict_freq = []
-#     text.lower()
-#     for letter in text:
-#         count = 0+
-#         if letter in tab_freq:
-#             for i in dict_freq:
-#                 if dict_freq[i] == dict_freq[i + 1]:
-#                     pass
-#
-#     print(dict_freq)
 
-
-# text_decryption('kadourkadourhmed')
-
-
-# dict_freq.update({letter: {count + 1}})
 import operator
 
 
@@ -165,5 +147,3 @@ text_chiff = "vjacrw dw jccjzdjwc jlcro yndc ojran m ’jdcanb lqxbnb ru yndc nb
 
 calc_occ(text_chiff)
 
-alph = ['e', 'a', 'i', 's', 't', 'n', 'r', 'u', 'l', 'o', 'd', 'm', 'p', 'c', 'v',
-        'q', 'f', 'g', 'b', 'j', 'h', 'x', 'z', 'y', 'w', 'k']
