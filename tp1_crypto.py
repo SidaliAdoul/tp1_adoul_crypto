@@ -116,7 +116,11 @@ def calc_occ(text2):
         elif letter == 'z':
             count_z += 1
             freq_dict['z'] = count_z
-    
+    sorted_dict = {}
+    # tri de dictionnaire qui contient les lettres et ses fréquences
+    sorted_dict = sorted(freq_dict.items(), key=operator.itemgetter(1), reverse=True)
+    for key,value in sorted_dict:
+        print(f"{key} => {value}")
     # récupérer la lettre la plus fréquente dans le message codé
     freq_letter = max(freq_dict, key=freq_dict.get)
     # supposer que la lettre la plus fréquente que c'est un e
